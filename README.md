@@ -15,5 +15,5 @@ Module To show the license keys of extensions in customer account page
 4. Table 'alfalak_helpdesk_system'<br>
 
 # Alfalak_System
-Module to show lable 'NEW' in payment methode
-<br> Example to show require js in admin section 
+Module to show lable 'NEW' in payment methode section in backend
+<br>require js example in admin module 

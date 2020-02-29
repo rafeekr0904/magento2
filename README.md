@@ -17,3 +17,17 @@ Module To show the license keys of extensions in customer account page
 # Alfalak_System
 Module to show lable 'NEW' in payment methode section in backend
 <br>require js example in admin module 
+# Alfalak_SimpleNews
+# Admin
+
+1. Grid shows all the news.
+2. Can edit, delete news
+3.Configuration to enable/disable
+# Frontend
+
+1.domain.com/news lists all the news created by admin.
+2.Deatils page for each news.
+3.Latest news block also
+
+# table 'alfalak_simplenews'
+

@@ -33,5 +33,5 @@ Module to show lable 'NEW' in payment methode section in backend
 
 # Alfalak_CarouselWidget
 
-Add owl Carousel in Magento 2 Frontend
+Module to Add owl Carousel in Magento 2 Frontend
 

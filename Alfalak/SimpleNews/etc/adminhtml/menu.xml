@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="Alfalak_SimpleNews::main_menu" title="Simple News" 
+            module="Alfalak_SimpleNews" sortOrder="20" 
+            resource="Alfalak_SimpleNews::simplenews" />
+        <add id="Alfalak_SimpleNews::add_news" title="Add News" 
+            module="Alfalak_SimpleNews" sortOrder="1" parent="Alfalak_SimpleNews::main_menu" 
+            action="simplenews/news/new" resource="Alfalak_SimpleNews::manage_news" />
+        <add id="Alfalak_SimpleNews::manage_news" title="Manage News" 
+            module="Alfalak_SimpleNews" sortOrder="2" parent="Alfalak_SimpleNews::main_menu" 
+            action="simplenews/news/index" resource="Alfalak_SimpleNews::manage_news" />
+        <add id="Alfalak_SimpleNews::configuration" title="Configurations" 
+            module="Alfalak_SimpleNews" sortOrder="3" parent="Alfalak_SimpleNews::main_menu" 
+            action="adminhtml/system_config/edit/section/simplenews" 
+            resource="Alfalak_SimpleNews::configuration" />
+    </menu>
+</config>

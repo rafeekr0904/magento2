@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+      <add id="Alfalak_Helpdesk::tickets" title="Ticketing System" module="Alfalak_Helpdesk" sortOrder="51" resource="Alfalak_Helpdesk::tickets"/>
+      <add id="Alfalak_Helpdesk::manage" title="Manage Tickets" module="Alfalak_Helpdesk" sortOrder="10" action="helpdesk/tickets/index" resource="Alfalak_Helpdesk::manage" parent="Alfalak_Helpdesk::tickets"/>
+    </menu>
+</config>
